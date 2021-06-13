@@ -1,0 +1,37 @@
+.clock-container {
+    background: radial-gradient(ellipse at center, #1b7e9a 13%, #041e65 50%);
+    width: 360px;
+    height: 360px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+
+.clock {
+    text-align: center;
+    align-self: center;
+}
+
+.clock span {
+    display: inline-block;
+}
+
+.clock .time {
+    letter-spacing: 0.05em;
+    font-size: 55px;
+    padding: 5px 0;
+}
+
+.clock .date {
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+
+.clock .title {
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    padding: 15px 0 0;
+}
